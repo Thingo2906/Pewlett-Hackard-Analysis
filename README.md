@@ -1,1 +1,10 @@
 # Pewlett-Hackard-Analysis
+## Purpose of our project
+- The goal of our project is to figure out how many retiring employees there are by title and which employees are eligible for the mentorship program. The titles of all workers born between January 1, 1952, and December 31, 1955 will be displayed in our retiring employees by title information. In our pewlett-hackard query, we first generated a query that obtained the emp no, first name, and last name columns from the employees table, as well as the title, from date, and to date columns from the titles table. We used the main key to link the two tables, then filtered the data by birth date and stored it in a new table. We used the DISTINCT ON function to discover the first occurrence of the emp no in our new table for the following two parts of delivery 1, and we used ORDER BY COUNT to show us the total number of titles from our unique titles database that we generated for the last part of the deliverable. We created a query that grabbed fields from our workers and dept emp tables, filtered data on current employees born in 1965, and then sorted the table by emp no in the second deliverable.
+## Result
+- The retirment titles database allows us to view every employee who is eligible for retirement and how long they have worked at each position throughout their career.
+- The table of unique titles that we generated displays the most recent title for employees who have reached retirement age.
+- Our retiring titles data reveals that senior titles are held by the majority of retirees.
+- The last section of our project demonstrates mentoring eligibility; if you look at the top of the new csv, you'll notice that the majority of these people hold senior positions.
+## Conclusion
+- Given that 63 percent of the workforce is eligible for retirement or mentoring, there will be many job openings in the next 5-10 years. Although there may not be enough individuals in the workforce to complete the jobs or even come close to having the necessary expertise to fill these roles fast, organizations might strive to learn as much as possible about what these employees did to be so successful.
